@@ -85,7 +85,7 @@ float n=1;
 
 if(n>0.0)
 {frame.at<Vec3b>(i,640-j)[0]=b;
-			frame.at<Vec3b>(i,640-j)[1]=v;
+			frame.at<Vec3b>(i,640-j)[1]=v;        //cree image mirroir avec la moitie de l'ecran (1280/2) sur l'axe j
 			frame.at<Vec3b>(i,640-j)[2]=r;
 }
 }
